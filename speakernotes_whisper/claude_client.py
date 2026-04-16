@@ -5,7 +5,7 @@ import re
 
 import anthropic
 
-SYSTEM_PROMPT = """You are an expert presentation coach. Your task is to analyze a spoken \
+SYSTEM_PROMPT = """You are a presentation coach. Your task is to analyze a spoken \
 presentation transcript and generate clear, useful speaker notes for each slide.
 
 Speaker notes should:

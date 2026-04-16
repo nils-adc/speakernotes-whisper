@@ -1,0 +1,20 @@
+[project]
+name = "speakernotes-whisper"
+version = "0.1.0"
+description = "Generate speaker notes from presentation dry-runs using Whisper + Claude"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.35.0",
+    "faster-whisper>=1.0.3",
+    "anthropic>=0.28.0",
+    "python-pptx>=1.0.2",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+speakernotes-whisper = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
